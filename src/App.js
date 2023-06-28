@@ -10,13 +10,13 @@ import StudyGroups from './components/pages/StudyGroups';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/NewProject2">
 
       <div>
       <PageNavbar />
 
       <Routes>
-        <Route path='/NewProject2' element = {<Home />} />
+        <Route exact path='/NewProject2' element = {<Home />} />
         <Route path='/NewProject2/Services' element = {<Services />} />
         <Route path='/NewProject2/Aboutus' element = {<Aboutus />} />
         <Route path='/NewProject2/StudyGroups' element = {<StudyGroups />} />
