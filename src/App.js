@@ -16,10 +16,10 @@ function App() {
       <PageNavbar />
 
       <Routes>
-        <Route path='/' element = {<Home />} />
-        <Route path='/Services' element = {<Services />} />
-        <Route path='/Aboutus' element = {<Aboutus />} />
-        <Route path='/StudyGroups' element = {<StudyGroups />} />
+        <Route path='/NewProject2' element = {<Home />} />
+        <Route path='/NewProject2/Services' element = {<Services />} />
+        <Route path='/NewProject2/Aboutus' element = {<Aboutus />} />
+        <Route path='/NewProject2/StudyGroups' element = {<StudyGroups />} />
 
       </Routes>
 
